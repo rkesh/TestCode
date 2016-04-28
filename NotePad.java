@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 import java.io.*;
 
- 
+ //Public class can be accessed by any file in this package
 public class Notepad extends JFrame implements ActionListener {
   private TextArea textArea = new TextArea("", 0,0, TextArea.SCROLLBARS_VERTICAL_ONLY);
   private MenuBar menuBar = new MenuBar(); // first, create a MenuBar item
